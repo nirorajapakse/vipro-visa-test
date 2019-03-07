@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-public class vipro implements IVipro {
+public class Vipro implements IVipro {
 
 	private static final String SPACE = " ";
 
@@ -81,7 +81,7 @@ public class vipro implements IVipro {
 	}
 	
 	public static void main(String[] args) {
-		vipro vp = new vipro();
+		Vipro vp = new Vipro();
 		
 		File testFile = new File(System.getProperty("user.dir") + "/src/vipro/visa/org/test.txt");
 		
